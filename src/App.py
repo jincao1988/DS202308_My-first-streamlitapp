@@ -98,8 +98,6 @@ fig
 
 ### 2nd graphic
 st.title("The share of production per canton")
-
-
 fig = px.choropleth_mapbox(df_production['production'], 
                            geojson=data, 
                            color=df_production['production'],
